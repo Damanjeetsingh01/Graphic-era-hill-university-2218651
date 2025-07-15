@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useParams } from "react-router-dom";
 import ShortenerPage from "./pages/ShortenerPage";
 import StatsPage from "./pages/StatsPage";
 
